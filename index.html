@@ -1,36 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Mycara Melony Songs</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="header">
-      <img src="Melony.png" alt="Melony's profile picture">
-      <h1>Mycara Melony Songs</h1>
-      <div class="social-icons">
-        <a href="https://www.youtube.com/@MycaraMelony"><img src="youtube.png" alt="YouTube"></a>
-        <a href="https://twitter.com/MycaraMelony"><img src="twitter.png" alt="Twitter"></a>
-        <a href="https://www.facebook.com/MycaraMelony"><img src="facebook.png" alt="Facebook"></a>
-      </div>
-    </div>
-    <div class="content">
-      <input type="text" id="search-box" placeholder="Search...">
-      <button id="clear-search-btn">Clear Search</button>
-      <table id="songs-table">
-        <thead>
-          <tr>
-            <th>Song Name</th>
-            <th>Artist</th>
-            <th>Release Date</th>
-            <th>YouTube Link</th>
-          </tr>
-        </thead>
-        <tbody>
-        </tbody>
-      </table>
-    </div>
-    <script src="index.js"></script>
-  </body>
+<html>
+<head>
+	<title>Melony's Songs</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<div id="header-left">
+			<img src="https://via.placeholder.com/50x50?text=MP" alt="Melony Profile Picture">
+			<h1>Melony</h1>
+			<p>Mycara Melony Songs</p>
+		</div>
+		<div class="social-icons">
+			<a href="#"><img src="https://via.placeholder.com/25x25?text=F" alt="Facebook Icon"></a>
+			<a href="#"><img src="https://via.placeholder.com/25x25?text=I" alt="Instagram Icon"></a>
+			<a href="#"><img src="https://via.placeholder.com/25x25?text=T" alt="Twitter Icon"></a>
+		</div>
+	</div>
+	<div class="search-container">
+		<input type="text" id="search-box" placeholder="Search...">
+		<button id="clear-search-btn">Clear</button>
+	</div>
+	<table>
+		<thead>
+			<tr>
+				<th>Song</th>
+				<th>Album</th>
+				<th>Year</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><a href="#">Song 1</a></td>
+				<td>Album 1</td>
+				<td>2021</td>
+			</tr>
+			<tr>
+				<td><a href="#">Song 2</a></td>
+				<td>Album 1</td>
+				<td>2021</td>
+			</tr>
+			<tr>
+				<td><a href="#">Song 3</a></td>
+				<td>Album 2</td>
+				<td>2022</td>
+			</tr>
+			<tr>
+				<td><a href="#">Song 4</a></td>
+				<td>Album 2</td>
+				<td>2022</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
 </html>
