@@ -11,7 +11,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
   background-color: #ECF7E6;
@@ -26,6 +26,11 @@ body {
 .header h1 {
   margin: 0;
   color: #90A181;
+  text-align: left;
+}
+
+#header-text {
+  text-align: left;
 }
 
 .search-container {
