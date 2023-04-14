@@ -28,22 +28,22 @@ body {
   margin: 0;
   color: #90A181;
   text-align: left;
-}
-
-#header-text {
-  text-align: left;
+  font-size: 24px;
 }
 
 .social-icons {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .social-icons img {
   width: 25px;
   height: 25px;
-  margin-right: 10px;
 }
 
 .search-container {
@@ -92,3 +92,4 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
