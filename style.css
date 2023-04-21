@@ -1,14 +1,17 @@
+/* Reset default styles */
 * {
   box-sizing: border-box;
-}
-
-body {
   margin: 0;
   padding: 0;
+}
+
+/* Set font and background color for the body */
+body {
   font-family: sans-serif;
   background-color: #f9f9f9;
 }
 
+/* Style for the header */
 .header {
   display: flex;
   align-items: center;
@@ -18,34 +21,40 @@ body {
   padding: 0 20px;
 }
 
+/* Style for the header logo */
 .header img {
   width: 50px;
   height: 50px;
   margin-right: 10px;
 }
 
+/* Style for the header title */
 .header h1 {
   margin: 0;
   color: #90A181;
   text-align: left;
 }
 
+/* Style for the header text container */
 #header-text {
   text-align: left;
 }
 
+/* Style for the social icons container */
 .social-icons {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
+/* Style for the social icons */
 .social-icons img {
   width: 25px;
   height: 25px;
   margin-right: 10px;
 }
 
+/* Style for the search container */
 .search-container {
   display: flex;
   justify-content: center;
@@ -53,42 +62,58 @@ body {
   margin: 10px 0;
 }
 
+/* Style for the search box */
 #search-box {
-  padding: 5px;
+  padding: 10px;
   margin-right: 10px;
   width: 300px;
 }
 
+/* Style for the clear search button */
 #clear-search-btn {
-  padding: 5px;
+  padding: 10px;
   cursor: pointer;
   background-color: white;
   border: 1px solid #ddd;
 }
 
+/* Hover effect for the clear search button */
 #clear-search-btn:hover {
   background-color: #ddd;
 }
 
+/* Style for the random song button */
+#random-song-btn {
+  padding: 10px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+/* Style for the table */
 table {
   border-collapse: collapse;
   width: 100%;
 }
 
+/* Style for table headers and cells */
 th, td {
   text-align: left;
-  padding: 8px;
+  padding: 10px;
 }
 
+/* Style for even rows in the table */
 tr:nth-child(even) {
   background-color: #ECF7E6;
 }
 
+/* Style for links */
 a {
   color: #90A181;
   text-decoration: none;
 }
 
+/* Hover effect for links */
 a:hover {
   text-decoration: underline;
 }
