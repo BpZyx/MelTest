@@ -7,8 +7,9 @@
 
 /* Set font and background color for the body */
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #f9f9f9;
+  color: #333;
 }
 
 /* Style for the header */
@@ -19,6 +20,7 @@ body {
   background-color: #ECF7E6;
   justify-content: space-between;
   padding: 0 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Style for the header logo */
@@ -32,6 +34,7 @@ body {
 .header h1 {
   margin: 0;
   color: #90A181;
+  font-size: 24px;
   text-align: left;
 }
 
@@ -67,14 +70,23 @@ body {
   padding: 10px;
   margin-right: 10px;
   width: 300px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  background-color: #fff;
+  color: #333;
 }
 
 /* Style for the clear search button */
 #clear-search-btn {
   padding: 10px;
   cursor: pointer;
-  background-color: white;
+  background-color: #fff;
   border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
 }
 
 /* Hover effect for the clear search button */
@@ -86,8 +98,16 @@ body {
 #random-song-btn {
   padding: 10px;
   cursor: pointer;
-  background-color: white;
+  background-color: #fff;
   border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for the random song button */
+#random-song-btn:hover {
+  background-color: #ddd;
 }
 
 /* Style for the table */
