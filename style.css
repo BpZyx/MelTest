@@ -1,0 +1,124 @@
+table {
+
+  border-collapse: collapse;
+
+  width: 100%;
+
+  margin-top: 20px;
+
+}
+
+th,
+
+td {
+
+  text-align: left;
+
+  padding: 8px;
+
+  border-bottom: 1px solid #ddd;
+
+}
+
+tr:hover {
+
+  background-color: #f5f5f5;
+
+}
+
+th {
+
+  background-color: #4CAF50;
+
+  color: white;
+
+}
+
+.btn {
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+.btn:hover {
+
+  background-color: #3e8e41;
+
+}
+
+.container {
+
+  padding: 20px;
+
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 768px) {
+
+  /* Make the table rows stack on top of each other */
+
+  table,
+
+  thead,
+
+  tbody,
+
+  th,
+
+  td,
+
+  tr {
+
+    display: block;
+
+  }
+
+  /* Hide the table header */
+
+  thead tr {
+
+    display: none;
+
+  }
+
+  td {
+
+    /* Add some space between the table cells */
+
+    padding: 8px 16px;
+
+    /* Add a border between the table cells */
+
+    border-bottom: 1px solid #ddd;
+
+    /* Add some space above the first table cell */
+
+    margin-top: 20px;
+
+  }
+
+  td:before {
+
+    /* Add the table header label before each table cell */
+
+    content: attr(data-label);
+
+    float: left;
+
+    font-weight: bold;
+
+  }
+
+}
+
