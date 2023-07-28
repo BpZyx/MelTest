@@ -18,7 +18,7 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption('Pac-Man Game')
 
 # Load Pac-Man image
-pacman_image = pygame.image.load('path/to/your/character.png')
+pacman_image = pygame.image.load('facebook.png')
 
 # Pac-Man's starting position
 pacman_x = SCREEN_WIDTH // 2
