@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Pac-Man Game</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ardalita Lilibelle - YouTuber</title>
+  <style>
+    /* Add some basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #555;
+      color: #fff;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
-  <canvas id="gameCanvas" width="800" height="600"></canvas>
-  <script src="pacman.js"></script>
+  <header>
+    <h1>Ardalita Lilibelle</h1>
+    <p>Welcome to the official website of YouTuber Ardalita Lilibelle</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Videos</a>
+    <a href="#">Contact</a>
+  </nav>
+  <main>
+    <h2>About Ardalita Lilibelle</h2>
+    <p>Ardalita Lilibelle is a popular YouTuber known for her creative and entertaining videos. With a unique style and charismatic personality, she has captured the hearts of millions of viewers worldwide.</p>
+    
+    <h2>Featured Videos</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/x3TcOVHIxQygysaP" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <!-- ต่อด้วยคลิปอื่นๆ ถ้ามี -->
+    
+  </main>
+  <footer>
+    <p>&copy; 2023 Ardalita Lilibelle. All rights reserved.</p>
+  </footer>
 </body>
 </html>
